@@ -11,14 +11,9 @@
 #include <proto/graphics.h>
 #include <proto/dos.h>
 
-#include <exec/types.h>
-#include <exec/memory.h>
 #include <intuition/intuition.h>
 #include <graphics/gfx.h>
 #include <graphics/rastport.h>
-#include <proto/exec.h>
-#include <proto/intuition.h>
-#include <proto/graphics.h>
 
 #include <devices/timer.h>
 #include <proto/timer.h>
@@ -134,8 +129,6 @@ int main()
         }
 
         // timing
-
-        /* Nykyinen aika */
         ReadEClock(&now);
 
         startTicks =
