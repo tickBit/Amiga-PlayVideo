@@ -15,3 +15,4 @@ This program was made only in small video files (in terms on file size) in mind.
 
 Picture of the program running on AmiKit environment.
 
+<img width="1920" height="1080" alt="PlayVideo" src="https://github.com/user-attachments/assets/5a94fa5b-c69f-4bf1-a1ed-215c165f3f57" />
