@@ -21,7 +21,7 @@ and
 
 Mp4s need that * 4, but if the video format doesn't use all these A R G B, * 3 is the right value...
 
-This program was made only in small video files (in terms on file size) in mind.
+`PlayVideo.c` was made only in small video files (in terms on file size) in mind.
 
 ## Picture
 
