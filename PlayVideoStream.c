@@ -82,12 +82,13 @@ int main()
 
     scr = LockPubScreen(NULL);
 
-    // put here the video file to play, remember to delete the raw file from RAM DISK
+    // put here the video file to play
+    // option r is the frame rate
     SystemTags(
-        "ffmpeg -i videos/video.mp4 "
-        "-f rawvideo -pix_fmt bgr0 "
+        "ffmpeg -r 7 -i videos/video.mp4 "
+        "-f rawvideo -pix_fmt bgra "
         "-vf scale=512:512 "
-        "output/video.raw",
+        "-r 7 output/video.raw",
         TAG_DONE
     );
     
