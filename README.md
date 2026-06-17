@@ -21,6 +21,20 @@ and
 
 Mp4s need that * 4, but if the video format doesn't use all these A R G B, * 3 may be the right value...
 
+Please notice also this string in `PlayVideoStream.c`:
+
+```
+SystemTags(
+        "ffmpeg -r 7 -i videos/video.mp4 "
+        "-f rawvideo -pix_fmt bgra "
+        "-vf scale=512:512 "
+        "-r 7 output/video.raw",
+        TAG_DONE
+    );
+```
+
+There the first `-r 7` is the input frame rate, and second `-r 7` is the output frame rate.
+
 `PlayVideo.c` was made only in small video files (in terms on file size) in mind.
 
 ## Picture
