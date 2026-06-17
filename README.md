@@ -35,7 +35,7 @@ SystemTags(
 
 There the first `-r 7` is the input frame rate, and second `-r 7` is the output frame rate.
 
-`PlayVideo.c` was made only in small video files (in terms on file size) in mind.
+`PlayVideo.c` was made for only in small video files (in terms on file size) in mind.
 
 ## Picture
 
