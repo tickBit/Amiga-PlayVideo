@@ -5,7 +5,7 @@ This program uses `ffmpeg` for Amiga to implement video playing from C programs.
 The program was developed on AmiKit environment. On later AmiKit versions ffmpeg comes as default and is automatically in the path.
 `PlayVideo.c` uses ffmpeg to produce a raw video file to RAM Disk. Keep that in mind with RAM memory settings. The stream version of the program creates small temp file into the disk.
 
-The C compiler used was VBCC. To compile the program use `vc PlayVideo.c -o PlayVideo -fpu=68882` or `vc PlayVideoStream.c -o PlayVideoStream -lamiga -fpu=68882`
+The C compiler used was VBCC. To compile the program use `vc PlayVideo.c -o PlayVideo -lamiga -fpu=68882` or `vc PlayVideoStream.c -o PlayVideoStream -lamiga -fpu=68882`
 
 Look inside the code, for more details. Just in case, please notice these:
 
