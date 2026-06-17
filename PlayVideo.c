@@ -91,6 +91,8 @@ int main()
     );
     
     fh = Open("RAM:frame.raw", MODE_OLDFILE);
+    if (!fh) goto end;
+    
     Seek(fh, 0, OFFSET_BEGINNING);
 
     int size = WIDTH * HEIGHT * 4;
