@@ -33,7 +33,7 @@ SystemTags(
     );
 ```
 
-There the first `-r 7` is the input frame rate, and second `-r 7` is the output frame rate.
+There the first `-r 7` is the input frame rate, and second `-r 7` is the output frame rate. Also, in `scale=512:512` the numbers are `WIDTH:HEHIGHT` defined earlier.
 
 `PlayVideo.c` was made for only in small video files (in terms on file size) in mind.
 
